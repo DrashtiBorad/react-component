@@ -1,4 +1,4 @@
 import "./index.css";
-import MyButtonComponent from "./components/button/button";
+import Button from "./components/button";
 
-export { MyButtonComponent };
+export { Button };

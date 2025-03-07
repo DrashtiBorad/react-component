@@ -1,11 +1,11 @@
 import './App.css'
-import Button from './components/button/button'
+import Button from './components/button'
 
 function App() {
 
   return (
    <>
-   <Button/>
+   <Button label='hello'/>
    </>
   )
 }
