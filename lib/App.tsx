@@ -1,13 +1,11 @@
-import './App.css'
-import Button from './components/button'
+import Button from "./components/button";
 
 function App() {
-
   return (
-   <>
-   <Button label='hello'/>
-   </>
-  )
+    <>
+      <Button label="hello" />
+    </>
+  );
 }
 
-export default App
+export default App;
