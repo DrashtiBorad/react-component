@@ -4,7 +4,7 @@ import SlickSlider from "./components/carousel";
 function App() {
   return (
     <>
-      <Button label="hello" />
+      <Button label="helslo" />
       <SlickSlider/>
     </>
   );
