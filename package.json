@@ -29,6 +29,9 @@
     "type": "git",
     "url": "https://github.com/DrashtiBorad/react-component.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
