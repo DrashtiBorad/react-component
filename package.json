@@ -25,6 +25,10 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrashtiBorad/react-component.git"
+  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
