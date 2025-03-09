@@ -1,6 +1,5 @@
 {
   "name": "react-dra-component",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/index.umd.js",
@@ -15,7 +14,7 @@
       "require": "./dist/index.umd.js",
       "types": "./dist/index.d.ts"
     },
-    "./dist/react-component.css": "./dist/react-component.css"
+    "./dist/react-dra-component.css": "./dist/react-dra-component.css"
   },
   "scripts": {
     "dev": "vite",
@@ -32,6 +31,7 @@
   "publishConfig": {
     "access": "public"
   },
+  
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
