@@ -1,5 +1,7 @@
 import { Meta, StoryObj } from "@storybook/react";
 import Button from "../lib/components/button";
+import { FaCheck } from "react-icons/fa";
+import React from "react";
 
 const meta: Meta<typeof Button> = {
   title: "Components/Button",
@@ -10,6 +12,7 @@ const meta: Meta<typeof Button> = {
       control: "radio",
       options: ["primary", "secondary"],
     },
+    icon: { control: false },
   },
 };
 
@@ -28,5 +31,13 @@ export const Secondary: Story = {
   args: {
     label: "Secondary Button",
     theme: "secondary",
+  },
+};
+
+export const PrimaryWithIcon: Story = {
+  args: {
+    label: "PrimaryWithIcon",
+    theme: "primary",
+    icon: <FaCheck />,
   },
 };

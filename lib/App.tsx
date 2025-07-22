@@ -1,11 +1,12 @@
+import { Fa0 } from "react-icons/fa6";
 import Button from "./components/button";
 import SlickSlider from "./components/carousel";
 
 function App() {
   return (
     <>
-      <Button label="haello" />
-      <SlickSlider/>
+      <Button label="hellooo" icon={<Fa0 />} />
+      <SlickSlider />
     </>
   );
 }
