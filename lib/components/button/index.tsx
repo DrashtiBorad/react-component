@@ -1,11 +1,12 @@
 interface ButtonProps {
   label: string;
-  theme?: "primary" | "secondary";
+  theme?: "primary" | "secondary" | "tertiary";
   icon?: React.ReactNode;
 }
 const themeClasses = {
   primary: "bg-primary hover:bg-primary-dark",
   secondary: "bg-secondary hover:bg-secondary-dark",
+  tertiary: "bg-tertiary hover:bg-tertiary-dark",
 };
 const Button: React.FC<ButtonProps> = ({ label, theme = "primary", icon }) => {
   return (
