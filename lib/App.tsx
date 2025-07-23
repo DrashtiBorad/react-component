@@ -7,6 +7,7 @@ function App() {
     <>
       <Button label="hellooo" icon={<Fa0 />} />
       <SlickSlider />
+      <h1>sdfsd</h1>
     </>
   );
 }
