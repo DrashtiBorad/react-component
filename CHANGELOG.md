@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 1.3.0
+
+### Minor Changes
+
+- c84e0b2: update dropdown component and ci
+
 ## 1.2.0
 
 ### Minor Changes
