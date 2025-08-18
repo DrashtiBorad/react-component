@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.0.0
+
+### Major Changes
+
+- 1a6d3ec: add text component
+
 ## 1.3.0
 
 ### Minor Changes
