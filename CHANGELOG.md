@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.1.0
+
+### Minor Changes
+
+- 12c99cf: add css color
+
 ## 2.0.0
 
 ### Major Changes
