@@ -2,6 +2,7 @@ import { Fa0 } from "react-icons/fa6";
 import Button from "./components/button";
 import SlickSlider from "./components/carousel";
 import BasicDropdown from "./components/dropdown";
+import TextComponent from "./components/text";
 
 function App() {
   const handleSelect = (option: string) => {
@@ -16,6 +17,7 @@ function App() {
         options={["Option 1", "Option 2", "Option 3"]}
         onSelect={handleSelect}
       />
+      <TextComponent/>
     </>
   );
 }

@@ -1,5 +1,5 @@
 const TextComponent = () => {
-  return <div>TextComponent</div>;
+  return <div className="text-red-700">TextComponent</div>;
 };
 
 export default TextComponent;
