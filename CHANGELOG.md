@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.1.1
+
+### Patch Changes
+
+- e746d96: resolve css issue
+
 ## 2.1.0
 
 ### Minor Changes
