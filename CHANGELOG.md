@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.2.0
+
+### Minor Changes
+
+- cd15d0f: added package as a github artifact.
+
 ## 2.1.1
 
 ### Patch Changes
