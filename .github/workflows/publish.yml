@@ -19,18 +19,16 @@ jobs:
           registry-url: "https://npm.pkg.github.com/"
           scope: "@drashtiborad"
 
+      - name: Install pnpm
+        run: npm install -g pnpm
 
+      - name: Install dependencies
+        run: pnpm install
 
-        - name: Install pnpm
-          run: npm install -g pnpm
+      - name: Build package
+        run: pnpm run build
 
-        - name: Install dependencies
-          run: pnpm install
-
-        - name: Build package
-          run: pnpm run build
-
-        - name: Publish to GitHub Packages
-          run: pnpm publish --no-git-checks
-          env:
-            NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish to GitHub Packages
+        run: pnpm publish --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
