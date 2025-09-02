@@ -9,6 +9,7 @@ function App() {
     console.log("Selected:", option);
   };
   return (
+    // this is a comment
     <>
       <Button label="hellooo" icon={<Fa0 />} />
       <SlickSlider />
@@ -17,7 +18,7 @@ function App() {
         options={["Option 1", "Option 2", "Option 3"]}
         onSelect={handleSelect}
       />
-      <TextComponent/>
+      <TextComponent />
     </>
   );
 }
