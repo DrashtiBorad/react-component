@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.3.0
+
+### Minor Changes
+
+- b558192: added artifact
+
 ## 2.2.0
 
 ### Minor Changes
