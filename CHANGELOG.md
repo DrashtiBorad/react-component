@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.4.0
+
+### Minor Changes
+
+- a885ae9: added npmrc file
+
 ## 2.3.0
 
 ### Minor Changes
