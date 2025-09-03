@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.6.1
+
+### Patch Changes
+
+- eb70d97: Add build step in pipeline
+
 ## 2.6.0
 
 ### Minor Changes
