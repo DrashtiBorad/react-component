@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.6.2
+
+### Patch Changes
+
+- 0517a1b: change tsconfig configuration
+
 ## 2.6.1
 
 ### Patch Changes
