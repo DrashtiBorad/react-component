@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.6.0
+
+### Minor Changes
+
+- b582382: Add version update
+
 ## 2.5.0
 
 ### Minor Changes
