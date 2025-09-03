@@ -1,5 +1,15 @@
 # react-uni-component
 
+## 2.5.0
+
+### Minor Changes
+
+- 624f318: temp
+
+### Patch Changes
+
+- b3acdd6: checking
+
 ## 2.4.0
 
 ### Minor Changes
