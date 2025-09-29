@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Node
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: "https://npm.pkg.github.com"
@@ -38,7 +38,7 @@ jobs:
         run: pnpm build
 
       - name: Create Release Pull Request or Publish
-        uses: changesets/action@04d574e831923498156e0b2b93152878063203a3
+        uses: changesets/action@v1
         with:
           publish: pnpm release
         env:
