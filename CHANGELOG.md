@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 2.7.0
+
+### Minor Changes
+
+- adeadad: Add dependabot.yml file
+
 ## 2.6.2
 
 ### Patch Changes
