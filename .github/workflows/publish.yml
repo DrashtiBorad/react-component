@@ -38,7 +38,7 @@ jobs:
         run: pnpm build
 
       - name: Create Release Pull Request or Publish
-        uses: changesets/action@<commit-sha>
+        uses: changesets/action@04d574e831923498156e0b2b93152878063203a3
         with:
           publish: pnpm release
         env:
