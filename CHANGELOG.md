@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 3.0.0
+
+### Major Changes
+
+- 5de80c6: add major change.
+
 ## 2.7.0
 
 ### Minor Changes
