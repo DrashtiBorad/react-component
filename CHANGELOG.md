@@ -1,5 +1,11 @@
 # react-uni-component
 
+## 4.0.0
+
+### Major Changes
+
+- f393f01: change pipeline for auto SHA.
+
 ## 3.0.0
 
 ### Major Changes
