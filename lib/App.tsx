@@ -9,7 +9,6 @@ function App() {
     console.log("Selected:", option);
   };
   return (
-    // this is a comment
     <>
       <Button label="hellooo" icon={<Fa0 />} />
       <SlickSlider />
